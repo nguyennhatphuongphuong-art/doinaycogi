@@ -1,18 +1,29 @@
-# ĐỜI NÀY CÓ GÌ VUI? — NEW HOST 1.1 SINGLE FILE
+# ĐỜI NÀY CÓ GÌ VUI? — FULL BUILD 4.0 · 11 MODULES
 
-Bản single-file dành cho GitHub Pages trên iPhone.
+Mobile portrait web game prototype integrating the previously designed 11 modules.
 
-## Upload
-Chỉ cần upload `index.html` vào thư mục GitHub Pages đang publish. Không cần thư mục assets.
+## 11 modules
+1. Character + animation
+2. Room / home
+3. Street / travel
+4. School
+5. Pho job
+6. Office job
+7. Shipper job
+8. Phone
+9. Social media (swipe)
+10. Shop
+11. Life / events / relationships
 
-## Kiến trúc
-- HTML/CSS/JS thuần.
-- Không WebGL.
-- Không CDN/font ngoài.
-- Không phụ thuộc mạng để tải ảnh.
-- Asset hình ảnh đã tối ưu WebP và nhúng trực tiếp vào HTML.
-- Save key mới: `DNCSV_NEW_HOST_1_1`.
+## Core rules
+- Starting money: 500,000đ
+- Three jobs
+- Every work shift lasts exactly 5 real-time minutes
+- HOME is locked during the shift
+- No cancel-work button
+- HOME becomes available only after the shift summary
+- School, shop, NPC/event, social and relationships are integrated
+- Save/load uses localStorage
+- Single HTML file with embedded visual assets
 
-## Gameplay baseline
-Nhà → Đi học/Đi làm → Travel → địa điểm → hoạt động đơn giản → kết quả → về nhà.
-Phone riêng; công việc nằm trong Phone → Xin việc; Social riêng; Shop riêng; thanh menu dưới không có tab Việc.
+Open `index.html` in a modern mobile browser or deploy the folder to GitHub Pages / Netlify.
